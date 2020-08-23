@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim min trong ba so nguyen</title>
+</head>
+<body>
+<script>
+    let number1 = parseInt(prompt("Enter number 1: "));
+    let number2 = parseInt(prompt("Enter number 2: "));
+    let number3 = parseInt(prompt("Enter number 3: "));
+    let result = MinThreeNum(number1,number2,number3);
+    document.write(result);
+    function MinTwoNum(num1,num2) {
+        return (num1<num2?num1:num2);
+    }
+    function MinThreeNum(num1,num2,num3) {
+        return(MinTwoNum(num1,MinTwoNum(num2,num3)));
+    }
+</script>
+</body>
+</html>

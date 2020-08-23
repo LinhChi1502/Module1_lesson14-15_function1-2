@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh giai thua cua mot so nguyen</title>
+</head>
+<body>
+<script>
+    let userInput = parseInt(prompt("Enter the number: "));
+    let answer = factorial(userInput);
+    document.write(answer);
+
+    function factorial(num) {
+        if (num == 1) {
+            return 1;
+        } else {
+            return num*factorial(num-1);
+        }
+
+    }
+</script>
+</body>
+</html>

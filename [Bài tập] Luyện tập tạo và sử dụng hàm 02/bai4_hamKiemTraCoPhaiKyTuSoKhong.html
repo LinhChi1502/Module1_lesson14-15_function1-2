@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem tra co phai ky tu so khong</title>
+</head>
+<body>
+<script>
+    let userInput = prompt("Enter character: ");
+     if (checkNumber(userInput)) {
+         document.write("number");
+     } else {
+         document.write("not number");
+     }
+    function checkNumber(num) {
+        return num>="0"&&num<="9";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh Dien Tich Va Chu Vi Hinh Tron</title>
+</head>
+<body>
+<script>
+    const PI = 3.14;
+    userInput = parseFloat(prompt("Enter the radius: "));
+    circleDiameter(userInput);
+    circleArea(userInput);
+
+    function circleDiameter(radius) {
+        let result = 2 * PI * radius;
+        document.write("Chu vi hinh tron la " + result + "<br>");
+    }
+
+    function circleArea(radius) {
+        let result = PI * radius * radius;
+        document.write("Dien tich hinh tron la " + result);
+    }
+</script>
+</body>
+</html>

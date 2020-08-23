@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 5-Luyen tap 1</title>
+</head>
+<body>
+<script>
+    let stars = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let constell = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    let userInput = prompt("Enter the star: ");
+    let result = getConstell(userInput);
+    if (result == -1) {
+        alert("No");
+    } else {
+        document.write(result);
+    }
+
+    function getConstell(star) {
+        for (let i = 0; i < stars.length; i++) {
+            if (stars[i] === star) {
+                return constell[i];
+                break;
+            } else {
+                return -1;
+            }
+        }
+    }
+</script>
+</body>
+</html>
