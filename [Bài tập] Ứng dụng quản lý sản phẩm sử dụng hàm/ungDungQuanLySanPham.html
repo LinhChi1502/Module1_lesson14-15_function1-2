@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng quản lý sản phẩm sử dụng hàm</title>
+    <style>
+         button {
+             background-color: green;
+             color: white;
+         }
+        td {
+            width: 200px;
+            height: 25px;
+        }
+        tr:nth-child(even) {
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+<p>Add New Product</p>
+<input type="text" id="newProduct" placeholder="New Product" value="">
+<button onclick="addProduct()">Add</button>
+
+<p>Display All Product</p>
+<p>Product Name</p>
+<div id="drawTable"></div>
+<script>
+    let products = ["Sony Xperia", "Samsung Galaxy", "Nokia 6", "Xiaomi Redmi Note 4", "Apple iPhone 6S", "Xiaomi Mi 5s Plus", "Apple iPhone 8 Plus", "Fujitsu F-04E", "Oppo A71"]
+
+    function displayList() {
+        let listTable = `<table><tr><th>Product Name</th><th></th><th></th><th>${products.length} products</th></tr>`
+        for (let i = 0; i < products.length; i++) {
+            listTable += `<tr><td id="product-${i}">${products[i]}</td><td><button onclick="editProduct(${i})">Edit</button></td><td><button onclick="deleteProduct(${i})">Delete</button></td></tr>`
+            document.getElementById("drawTable").innerHTML = listTable;
+        }
+    }
+
+    displayList();
+
+    function addProduct() {
+        let product = document.getElementById("newProduct").value;
+        for (let i = 0; i < products.length; i++) {
+            if (products[i] === product) {
+                alert("San pham da co trong danh sach!");
+                return false;
+            }
+        }
+        products.push(product);
+        displayList();
+    }
+
+    function editProduct(idName) {
+        products[idName] = prompt("Nhap vao ten sua: ");
+        displayList();
+    }
+
+    function deleteProduct(idName) {
+        products.splice(idName,1);
+        displayList();
+    }
+</script>
+</body>
+</html>

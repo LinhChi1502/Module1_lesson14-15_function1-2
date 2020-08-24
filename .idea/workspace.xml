@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f780902-173c-4853-8c26-523f04297a26" name="Default Changelist" comment="" />
+    <list default="true" id="3f780902-173c-4853-8c26-523f04297a26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm/ungDungQuanLySanPham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gRE0kwqfbYJoVBTRE33SV1heHi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,7 +29,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Module1_lesson12/thay_the_gach_ngang_bang_gach_duoi.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -43,6 +50,13 @@
       <workItem from="1598068784423" duration="14298000" />
       <workItem from="1598150455501" duration="5143000" />
       <workItem from="1598167647415" duration="15356000" />
+      <workItem from="1598196482990" duration="436000" />
+      <workItem from="1598229436506" duration="160000" />
+      <workItem from="1598229599964" duration="41000" />
+      <workItem from="1598229650706" duration="61000" />
+      <workItem from="1598229719408" duration="71000" />
+      <workItem from="1598240497852" duration="18000" />
+      <workItem from="1598240796583" duration="29000" />
     </task>
     <servers />
   </component>
@@ -50,9 +64,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1598194868533">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1598240513924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598194868533" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598240513924" />
   </component>
 </project>
